@@ -6,9 +6,6 @@ terraform {
       s3 = "https://example.com"
     }
 
-    access_key = "" # Specify user here
-    secret_key = "" # Specify pass here
-
     # Skip AWS related checks and validations
     region                      = "ru-central-1"
     skip_credentials_validation = true
